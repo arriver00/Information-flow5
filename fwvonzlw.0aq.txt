@@ -1,0 +1,43 @@
+﻿Revert "第一次提交"
+
+This reverts commit 5ab76fd5ef70f637ccc355b72daa1133b7f284dd.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    css/data.css
+#	deleted:    css/information.css
+#	deleted:    css/style.css
+#	deleted:    data.html
+#	deleted:    flash2.htm
+#	deleted:    images/003bg.png
+#	deleted:    images/01bg.png
+#	deleted:    images/02bg.png
+#	deleted:    images/Thumbs.db
+#	deleted:    images/bg2.jpg
+#	deleted:    images/change.png
+#	deleted:    images/cir2.png
+#	deleted:    images/con-bg.jpg
+#	deleted:    images/content-foot.png
+#	deleted:    images/ddd.png
+#	deleted:    images/logo.jpg
+#	deleted:    images/mauna.png
+#	deleted:    images/news.png
+#	deleted:    images/search.png
+#	deleted:    images/source01.jpg
+#	deleted:    images/source02.jpg
+#	deleted:    images/source03.jpg
+#	deleted:    images/source04.jpg
+#	deleted:    images/source05.png
+#	deleted:    images/source06.jpg
+#	deleted:    index.html
+#	deleted:    js/jquery-1.11.0.min.js
+#	deleted:    js/roll.js
+#	deleted:    js/style.js
+#	deleted:    view.html
+#	deleted:    "\351\241\271\347\233\256\351\234\200\346\261\202.doc"
+#
+
