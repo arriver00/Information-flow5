@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ <html>
+ 	<body>
+ 		<script type="text/javascript">
+ 			var id;
+ 	function Begin(){
+ 			var bar;
+ 			var bar2;
+ 			var i = 1;
+ 	  function get(){
+ 	  	if (i%2 == 0){
+ 	  		bar = "as";
+ 	  	 bar2="<img src='images/01bg.png' id='bar2'/>";
+ 	  	}else{
+ 	  		bar = "welcome";
+ 	  	 bar2="<img src='images/003bg.png' id='bar2'/>";
+ 	  	}
+ 	  	i++;
+      document.getElementById("bar").innerHTML= bar; 
+      document.getElementById("bar2").innerHTML= bar2; 
+ 	  }
+ 	  id = setInterval(get,2000);
+ 	}
+ 	function Stop(){
+ 		clearInterval(id);
+ 	}
+</script>
+ 	<style type="text/css">
+ 		body{text-align:center;}
+ 		#bar2{
+ 			width:50px;
+ 			height:50px;
+ 			margin-left:auto;
+ 			margin-right:auto;
+ 		  </style>
+ 		</head>
+ 		<body>
+ 			
+ 			<div id="bar"></div>
+ 			<div id="bar2"></div>
+ 			<hr />
+ 			<button onclick="Begin();">start</button>
+ 			<button onclick="Stop();">stop</button>
+ 			<hr />
+ 		</body>
+ 	</html>
